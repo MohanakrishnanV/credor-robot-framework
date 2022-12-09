@@ -11,7 +11,7 @@ Investor_Login_KW
     Input Text    ${login_email}    ${investor-user}
     Input Password    ${login_password}    ${investor-password}
     Click Element    ${login_submit}   
-    Sleep    0.5     
+    Sleep    2     
     Click Element   ${pop-up_cancel}   
 
 Admin_Login_KW
